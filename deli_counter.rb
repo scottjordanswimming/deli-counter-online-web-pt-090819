@@ -22,7 +22,7 @@ puts "Welcome, #{string}. You are number #{katz_deli.index("#{string}") + 1} in 
 
 end
 
-def now_serving
+def now_serving(katz_deli)
   
   puts "Currently serving #"
   
