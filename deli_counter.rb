@@ -16,6 +16,7 @@ end
 
 def take_a_number(katz_deli, string)
 
+katz_deli << string
 
 puts "Welcome, #{string}. You are number #{katz_deli.index("#{string}")} in line."
 
