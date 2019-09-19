@@ -26,7 +26,7 @@ def now_serving(katz_deli)
   
   if katz_deli.count > 0 
     
-    katz_deli.shift.each.shift { |name| puts "Currently serving #{name}."}
+    katz_deli.each.shift { |name| puts "Currently serving #{name}."}
     
 
     
